@@ -1,0 +1,1 @@
+$(function(){$("#abc").click(function(c){console.log("abc")})});

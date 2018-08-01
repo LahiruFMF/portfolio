@@ -1,0 +1,16 @@
+.idea/
+.idea/workspace.xml
+/node_modules
+/vendor
+.vagrant/
+/nbproject/private/
+/cms/xml/
+__MACOSX/
+.htaccess
+/dist/temp_cv/
+
+*/logs/log-*.php
+!*/logs/index.html
+*/cache/*
+!*/cache/index.html
+!*/cache/.htaccess
