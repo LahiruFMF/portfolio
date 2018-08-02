@@ -17,7 +17,7 @@ gulp.task('js', function(){
 gulp.task('styles', function(){
 return gulp.src('dev/scss/*.scss')
 .pipe(sass())
-.pipe(concat('main.css'))
+.pipe(concat('theme.css'))
 .pipe(minifyCSS())
 .pipe(gulp.dest('public/css'))
 });

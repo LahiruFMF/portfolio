@@ -6,35 +6,34 @@
  * Time: 2:05 PM
  */
 
-define("ENVIRONMENT", "production");
+define("ENVIRONMENT", "development");
 define("APP_PATH", "portfolio");
 
 /* DO NOT DELETE BELOW PART */
 
 function asset_path($filename, $dir)
 {
+
     $site = base_url();
     $mode = "";
-
 
     /*
      * cache invalidation removed for js css libraries
      */
 
     if (is_null($dir)) {
-        $final_url = $site . $mode . $filename;
+        $final_url = $mode . $filename;
         return $final_url;
     }
 
-
     if (ENVIRONMENT == 'development') {
-        $mode = '/dist/' . $dir . '/';
-        return $site . $mode . $filename;
+        $mode = 'dist/' . $dir . '/';
+        return $mode . $filename;
     } else if (ENVIRONMENT == 'production') {
         $mode = 'public/' . $dir . '/';
     }
 
-    $final_url = $site . $mode . $filename . 'v?'.getUIVersion();
+    $final_url = $mode . $filename . '?v='.getUIVersion();
 
     return $final_url;
 
