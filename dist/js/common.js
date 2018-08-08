@@ -1,5 +1,10 @@
-$(function(){
-    $('#abc').click(function (e) {
-        console.log('abc');
-    })
+$(function () {
+
+    $('#btn-scroll-left').click(function(){
+        alert('a');
+    });
+
+    $('#btn-scroll-right"").click(function(){
+        alert('a');
+    });
 });
