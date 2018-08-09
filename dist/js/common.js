@@ -4,7 +4,7 @@ $(function () {
         alert('a');
     });
 
-    $('#btn-scroll-right"").click(function(){
-        alert('a');
+    $('#btn-scroll-right').click(function(){
+        $('html, body').animate({scrollLeft: $('.page').offset().left}, 800);
     });
 });
