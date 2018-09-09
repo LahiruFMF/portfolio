@@ -8,6 +8,7 @@
 <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <script src="<?= asset_path('common.js', 'js'); ?>"></script>
     <link rel="stylesheet" href="<?= asset_path('theme.css', 'css'); ?>">
+    <link rel="stylesheet" href="<?= asset_path('fonts.css', 'css'); ?>">
     <noscript><link rel="stylesheet" href="<?= asset_path('noscript.css', 'css'); ?>" /></noscript>
 
 </head>
@@ -24,8 +25,10 @@
             <div class="content color0 span-3-75">
                 <h1 class="major">Hello!<br />
                     I'm Lahiru Chathuranga</h1>
-                <h3>Front End Dev | UI/UX Designer</h3>
-                <p>Urna ut Aliquet, mus quis ante egestas eu at sit Natoque. Varius nulla aliquam, porta id augue ata massa, non blandit feugiat col erat morbi cep Euismod Sodales viverra. Curae fusce cubilia.</p>
+                <div class="sub-type">Front-end developer, UI/UX Designer</div>
+                <p style="color: #a897a9;">
+                    I offer a vаrіеtу of wеb design ѕеrvісеѕ tо hеlр you buіld your оnlіnе presence аnd get nоtісеd. I саn hеlр уоu hаvе a wеbѕіtе dеѕіgn that will not only lооk great but mееt the nееdѕ оf bоth уоu and уоur сuѕtоmеrѕ. Yоur gоаlѕ аrе important tо me, аnd I work wіth уоu tо create the perfect сuѕtоm website fоr еvеrу need.
+                </p>
                 <ul class="actions">
                     <li><a href="#first" class="button primary color1 circle icon fa-angle-right">Next</a></li>
                 </ul>
@@ -38,8 +41,14 @@
         <!-- Panel (Spotlight) -->
         <section class="panel spotlight medium right" id="first">
             <div class="content span-7">
-                <h2 class="major">Sed etiam aenean</h2>
-                <p>Mauris et ligula arcu. Proin dapibus convallis accumsan. Lorem maximus hendrerit orci, sit amet elementum massa hendrerit sed. Donec et ullamcorper ligula. Suspendisse amet potenti. Ut pretium libero eleifend euismod sed tristique. Quisque dictum magna risus, id ultricies justo sagittis vitae. Sed id odio tempor, porttitor elit amet, gravida hendrerit fringilla lorem ipsum dolor.</p>
+                <h2 class="major">My Story</h2>
+                <p>
+                    I grew up іn thе midst оf aesthetic and сreative fаmіlу bасkgrоund which hеlрѕ tо drive my раѕѕіоn for UI/UX dеѕіgnіng аnd dеvеlорmеnt. Grоwіng uр, I
+                    share a ѕtrоng lоvе fоr аrtѕ аnd illustrations, working wіth colors and creative stuff.
+                    After engaging with Software Engineering degree in university, my path focused onto front-end development field which leads to expand my creativity with latest cutting-edge web technologies.
+                    I do high attention for details and make it my priority to create a unique and innovative solution for every project I take.
+                    I am good in constructing standard and delightfull websites, web applications as well as interactive mobile applications.
+                </p>
             </div>
             <div class="image filtered tinted" data-position="top left">
                 <img src="dist/img/pic02.jpg" alt="" />
