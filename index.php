@@ -58,20 +58,182 @@
 
         <!-- Panel -->
         <section class="panel color1">
-            <div class="intro joined">
-                <h2 class="major">Amet lorem</h2>
-                <p>Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar. Vivamus sed feugiat finibus. Duis amet bibendum amet sed. Duis mauris ex, dapibus sed ligula tempus volutpat magna etiam.</p>
-            </div>
-            <div class="inner">
-                <ul class="grid-icons three connected">
-                    <li><span class="icon fa-diamond"><span class="label">Lorem</span></span></li>
-                    <li><span class="icon fa-camera-retro"><span class="label">Ipsum</span></span></li>
-                    <li><span class="icon fa-cog"><span class="label">Dolor</span></span></li>
-                    <li><span class="icon fa-paper-plane"><span class="label">Sit</span></span></li>
-                    <li><span class="icon fa-bar-chart"><span class="label">Amet</span></span></li>
-                    <li><span class="icon fa-code"><span class="label">Nullam</span></span></li>
-                </ul>
-            </div>
+            <div class="intro">
+                <div class="skills">
+
+                    <div class="ratings">
+                        <h2>My Skills</h2>
+                        <div class="skill-set-wrapper">
+                            <div class="col-6">
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        HTML5/CSS3
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        Front-end development
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        SASS/Compass
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        Creative Thinking
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        Project Management
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6">
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        UI/UX Designing
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        Wireframing & Prototyping
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        Drawing & Illustration
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        Typography
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skill-item">
+                                    <div class="skill-name">
+                                        Branding
+                                    </div>
+                                    <div class="rate">
+                                        <div class="progress-wrapper">
+                                            <div class="progress-fill"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="tools">
+                        <h2>Tools & Technologies</h2>
+                        <div class="tool-box">
+                            <div class="table">
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-html5.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-css3.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-js.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-jquery.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-angular.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-php.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-mysql.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-git.png" alt="html5">
+                                    </div>
+                                </div>
+                                <div class="table-row">
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-ps.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-ai.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-sass.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-gulp.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-ideaj.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-vscode.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-apple.png" alt="html5">
+                                    </div>
+                                    <div class="table-cell">
+                                        <img src="dist/img/tools/icon-win.png" alt="html5">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                 </div>
+
         </section>
 
         <!-- Panel (Spotlight) -->
