@@ -2488,7 +2488,7 @@ h1.major:after {
   bottom: -1.325rem; }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.1rem;
   line-height: 1.2; }
 
 h2.major {
@@ -4011,13 +4011,12 @@ button:disabled,
   background-color: #2d2d65; }
 
 .panel > .intro {
-  padding: 3.5rem 3.5rem 2rem 3.5rem;
+  padding: 2.5rem 3.5rem 2rem 2.5rem;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
-  width: 22rem;
-  min-width: 825px; }
+  width: 22rem; }
 
 .panel > .intro.joined {
   width: 18.5rem;
@@ -5092,6 +5091,9 @@ body.is-preload #wrapper {
   clear: both; }
 
 /* skill set */
+.skill-intro {
+  min-width: 825px; }
+
 .skills {
   width: 100%; }
   .skills .ratings {

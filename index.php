@@ -57,8 +57,8 @@
         </section>
 
         <!-- Panel -->
-        <section class="panel color1">
-            <div class="intro">
+        <section class="panel color1" id="skillPanel">
+            <div class="intro skill-intro">
                 <div class="skills">
 
                     <div class="ratings">
@@ -234,17 +234,6 @@
 
                  </div>
 
-        </section>
-
-        <!-- Panel (Spotlight) -->
-        <section class="panel spotlight large left">
-            <div class="content span-5">
-                <h2 class="major">Magna amet tempus</h2>
-                <p>Mauris a cursus velit. Nunc lacinia sollicitudin egestas bibendum, magna dui bibendum ex, sagittis commodo enim risus sed magna nulla. Vestibulum ut consequat velit. Curabitur vitae libero lorem. Quisque iaculis porttitor blandit. Nullam quis sagittis maximus. Sed vel nibh libero. Mauris et lorem pharetra massa lorem turpis congue pulvinar.</p>
-            </div>
-            <div class="image filtered tinted" data-position="top right">
-                <img src="dist/img/pic03.jpg" alt="" />
-            </div>
         </section>
 
         <!-- Panel -->

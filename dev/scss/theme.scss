@@ -373,7 +373,7 @@ h1.major:after {
 }
 
 h2 {
-  font-size: 1.75rem;
+  font-size: 1.1rem;
   line-height: 1.2;
 }
 
@@ -2234,7 +2234,8 @@ button:disabled,
 }
 
 .panel > .intro {
-  padding: 3.5rem 3.5rem 2rem 3.5rem;
+  //padding: 3.5rem 3.5rem 2rem 3.5rem;
+  padding: 2.5rem 3.5rem 2rem 2.5rem;
   display: -moz-flex;
   display: -webkit-flex;
   display: -ms-flex;
@@ -2260,7 +2261,6 @@ button:disabled,
   //-ms-flex-direction: column;
   //flex-direction: column;
   width: 22rem;
-  min-width: 825px;
 }
 
 .panel > .intro.joined {
@@ -3634,6 +3634,9 @@ body.is-preload #wrapper {
 }
 
 /* skill set */
+.skill-intro{
+  min-width:825px;
+}
 .skills {
   width: 100%;
 

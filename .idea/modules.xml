@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://D:\xampp\htdocs\portfolio\.idea\amplify.iml" filepath="D:\xampp\htdocs\portfolio\.idea\amplify.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/portfolio.iml" filepath="$PROJECT_DIR$/.idea/portfolio.iml" />
+      <module fileurl="file://D:\xampp\htdocs\portfolio\.idea\portfolio.iml" filepath="D:\xampp\htdocs\portfolio\.idea\portfolio.iml" />
     </modules>
   </component>
 </project>
