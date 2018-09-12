@@ -5118,6 +5118,26 @@ body.is-preload #wrapper {
         width: 50%;
         height: 4px;
         border-radius: 5px; }
+  .skills .skill-set-wrapper #html .rate > .progress-wrapper > .progress-fill {
+    width: 95%; }
+  .skills .skill-set-wrapper #front-end .rate > .progress-wrapper > .progress-fill {
+    width: 90%; }
+  .skills .skill-set-wrapper #sass .rate > .progress-wrapper > .progress-fill {
+    width: 88%; }
+  .skills .skill-set-wrapper #creative .rate > .progress-wrapper > .progress-fill {
+    width: 95%; }
+  .skills .skill-set-wrapper #project-management .rate > .progress-wrapper > .progress-fill {
+    width: 60%; }
+  .skills .skill-set-wrapper #uiux .rate > .progress-wrapper > .progress-fill {
+    width: 98%; }
+  .skills .skill-set-wrapper #wireframind-prototyping .rate > .progress-wrapper > .progress-fill {
+    width: 95%; }
+  .skills .skill-set-wrapper #drawing .rate > .progress-wrapper > .progress-fill {
+    width: 80%; }
+  .skills .skill-set-wrapper #typography .rate > .progress-wrapper > .progress-fill {
+    width: 75%; }
+  .skills .skill-set-wrapper #branding .rate > .progress-wrapper > .progress-fill {
+    width: 85%; }
   .skills .tools .tool-box {
     padding: 10px 20px; }
     .skills .tools .tool-box .table {

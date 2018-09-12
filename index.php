@@ -65,7 +65,7 @@
                         <h2>My Skills</h2>
                         <div class="skill-set-wrapper">
                             <div class="col-6">
-                                <div class="skill-item">
+                                <div  class="skill-item" id="html">
                                     <div class="skill-name">
                                         HTML5/CSS3
                                     </div>
@@ -75,7 +75,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill-item">
+                                <div  class="skill-item" id="front-end">
                                     <div class="skill-name">
                                         Front-end development
                                     </div>
@@ -85,7 +85,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill-item">
+                                <div  class="skill-item" id="sass">
                                     <div class="skill-name">
                                         SASS/Compass
                                     </div>
@@ -95,7 +95,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill-item">
+                                <div  class="skill-item" id="creative">
                                     <div class="skill-name">
                                         Creative Thinking
                                     </div>
@@ -105,7 +105,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill-item">
+                                <div  class="skill-item" id="project-management">
                                     <div class="skill-name">
                                         Project Management
                                     </div>
@@ -117,7 +117,7 @@
                                 </div>
                             </div>
                             <div class="col-6">
-                                <div class="skill-item">
+                                <div  class="skill-item" id="uiux">
                                     <div class="skill-name">
                                         UI/UX Designing
                                     </div>
@@ -127,7 +127,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill-item">
+                                <div  class="skill-item" id="wireframind-prototyping">
                                     <div class="skill-name">
                                         Wireframing & Prototyping
                                     </div>
@@ -137,7 +137,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill-item">
+                                <div  class="skill-item" id="drawing">
                                     <div class="skill-name">
                                         Drawing & Illustration
                                     </div>
@@ -147,7 +147,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill-item">
+                                <div  class="skill-item" id="typography">
                                     <div class="skill-name">
                                         Typography
                                     </div>
@@ -157,7 +157,7 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="skill-item">
+                                <div  class="skill-item" id="branding">
                                     <div class="skill-name">
                                         Branding
                                     </div>

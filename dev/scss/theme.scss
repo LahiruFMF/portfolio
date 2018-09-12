@@ -3676,6 +3676,56 @@ body.is-preload #wrapper {
 
     }
 
+    #html{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 95%;
+      }
+    }
+    #front-end{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 90%;
+      }
+    }
+    #sass{
+      .rate > .progress-wrapper > .progress-fill{
+        width:88%;
+      }
+    }
+    #creative{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 95%;
+      }
+    }
+    #project-management{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 60%;
+      }
+    }
+    #uiux{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 98%;
+      }
+    }
+    #wireframind-prototyping{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 95%;
+      }
+    }
+    #drawing{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 80%;
+      }
+    }
+    #typography{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 75%;
+      }
+    }
+    #branding{
+      .rate > .progress-wrapper > .progress-fill{
+        width: 85%;
+      }
+    }
   }
   .tools {
     .tool-box {
