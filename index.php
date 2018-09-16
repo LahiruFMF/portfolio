@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
     <title>Title of the document</title>
-<!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
+    <!--    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>-->
     <script src="<?= asset_path('common.js', 'js'); ?>"></script>
     <link rel="stylesheet" href="<?= asset_path('theme.css', 'css'); ?>">
     <link rel="stylesheet" href="<?= asset_path('fonts.css', 'css'); ?>">
@@ -52,12 +52,12 @@
                 </p>
             </div>
             <div class="image filtered tinted" data-position="top left">
-                <img src="dist/img/pic02.jpg" alt="" />
+                <img src="dist/img/picStory.jpg" alt="" />
             </div>
         </section>
 
         <!-- Panel -->
-        <section class="panel color1" id="skillPanel">
+        <section class="panel spotlight medium right color1" id="skillPanel">
             <div class="intro skill-intro">
                 <div class="skills">
 
@@ -232,8 +232,10 @@
                     </div>
                 </div>
 
-                 </div>
-
+            </div>
+            <div class="image filtered tinted" data-position="top left">
+                <img src="dist/img/pic02.jpg" alt="" />
+            </div>
         </section>
 
         <!-- Panel -->
@@ -244,18 +246,22 @@
             </div>
             <div class="gallery">
                 <div class="group span-3">
-                    <a href="dist/img/gallery/fulls/01.jpg" class="image filtered span-3" data-position="bottom"><img src="dist/img/gallery/thumbs/01.jpg" alt="" /></a>
-                    <a href="dist/img/gallery/fulls/02.jpg" class="image filtered span-1-5" data-position="center"><img src="dist/img/gallery/thumbs/02.jpg" alt="" /></a>
-                    <a href="dist/img/gallery/fulls/03.jpg" class="image filtered span-1-5" data-position="bottom"><img src="dist/img/gallery/thumbs/03.jpg" alt="" /></a>
+                    <div datasrc="dist/img/gallery/fulls/01.jpg" class="image filtered span-3 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/01.jpg" alt="" />
+                        <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">abc abc</div>
+                    </div>
+                    <div datasrc="dist/img/gallery/fulls/02.jpg" class="image filtered span-1-5 gitem" data-position="center"><img src="dist/img/gallery/thumbs/02.jpg" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/03.jpg" class="image filtered span-1-5 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/03.jpg" alt="" /></div>
                 </div>
-                <a href="dist/img/gallery/fulls/04.jpg" class="image filtered span-2-5" data-position="top"><img src="dist/img/gallery/thumbs/04.jpg" alt="" /></a>
+                <div datasrc="dist/img/gallery/fulls/04.jpg" class="image filtered span-2-5 gitem" data-position="top"><img src="dist/img/gallery/thumbs/04.jpg" alt="" /></div>
                 <div class="group span-4-5">
-                    <a href="dist/img/gallery/fulls/05.jpg" class="image filtered span-3" data-position="top"><img src="dist/img/gallery/thumbs/05.jpg" alt="" /></a>
-                    <a href="dist/img/gallery/fulls/06.jpg" class="image filtered span-1-5" data-position="center"><img src="dist/img/gallery/thumbs/06.jpg" alt="" /></a>
-                    <a href="dist/img/gallery/fulls/07.jpg" class="image filtered span-1-5" data-position="bottom"><img src="dist/img/gallery/thumbs/07.jpg" alt="" /></a>
-                    <a href="dist/img/gallery/fulls/08.jpg" class="image filtered span-3" data-position="top"><img src="dist/img/gallery/thumbs/08.jpg" alt="" /></a>
+                    <div datasrc="dist/img/gallery/fulls/05.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/05.jpg" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/06.jpg" class="image filtered span-1-5 gitem" data-position="center"><img src="dist/img/gallery/thumbs/06.jpg" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/07.jpg" class="image filtered span-1-5 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/07.jpg" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/08.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/08.jpg" alt="" /></div>
                 </div>
-                <a href="dist/img/gallery/fulls/09.jpg" class="image filtered span-2-5" data-position="right"><img src="dist/img/gallery/thumbs/09.jpg" alt="" /></a>
+                <div datasrc="dist/img/gallery/fulls/09.jpg" class="image filtered span-2-5 gitem" data-position="right"><img src="dist/img/gallery/thumbs/09.jpg" alt="" />
+
+                </div>
             </div>
         </section>
 

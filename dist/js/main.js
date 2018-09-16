@@ -632,17 +632,25 @@
 
 	// Gallery.
 		$('.gallery')
-			.on('click', 'a', function(event) {
+			.on('click', '.gitem', function(event) {
+
+			    var url= $(this).find( '.description').attr('datatarget');
+
+			    description= $(this).find( '.description').html();
+
+
+
 
 				var $a = $(this),
 					$gallery = $a.parents('.gallery'),
 					$modal = $gallery.children('.modal'),
 					$modalImg = $modal.find('img'),
-					href = $a.attr('href');
-
+					href = $a.attr('datasrc'),
+                    $title= $(this).find( '.description').attr('datasrc');
+                // console.log($title);
 				// Not an image? Bail.
-					if (!href.match(/\.(jpg|gif|png|mp4)$/))
-						return;
+				// 	if (!href.match(/\.(jpg|gif|png|mp4)$/))
+						// return;
 
 				// Prevent default.
 					event.preventDefault();
@@ -736,10 +744,9 @@
 					event.stopPropagation();
 
 			})
-			.prepend('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /></div></div>')
+			.append('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /><div class="content"><div class="title">aaaaaaaaa</div> </div> </div></div>')
 				.find('img')
 					.on('load', function(event) {
-
 						var $modalImg = $(this),
 							$modal = $modalImg.parents('.modal');
 
