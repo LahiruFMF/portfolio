@@ -249,8 +249,11 @@
                     <div datasrc="dist/img/gallery/fulls/01.jpg" class="image filtered span-3 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/01.jpg" alt="" />
                         <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">abc abc</div>
                     </div>
-                    <div datasrc="dist/img/gallery/fulls/02.jpg" class="image filtered span-1-5 gitem" data-position="center"><img src="dist/img/gallery/thumbs/02.jpg" alt="" /></div>
-                    <div datasrc="dist/img/gallery/fulls/03.jpg" class="image filtered span-1-5 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/03.jpg" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/02.jpg" class="image filtered span-1-5 gitem" data-position="center"><img src="dist/img/gallery/thumbs/02.jpg" alt="" />
+                        <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">cde cde</div>
+                    </div>
+                    <div datasrc="dist/img/gallery/fulls/03.jpg" class="image filtered span-1-5 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/03.jpg" alt="" />
+                        <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">efg efg</div></div>
                 </div>
                 <div datasrc="dist/img/gallery/fulls/04.jpg" class="image filtered span-2-5 gitem" data-position="top"><img src="dist/img/gallery/thumbs/04.jpg" alt="" /></div>
                 <div class="group span-4-5">

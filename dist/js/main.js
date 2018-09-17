@@ -633,13 +633,11 @@
 	// Gallery.
 		$('.gallery')
 			.on('click', '.gitem', function(event) {
-
 			    var url= $(this).find( '.description').attr('datatarget');
 
 			    description= $(this).find( '.description').html();
 
-
-
+abc=description;
 
 				var $a = $(this),
 					$gallery = $a.parents('.gallery'),
@@ -742,14 +740,14 @@
 
 				// Stop propagation.
 					event.stopPropagation();
-
 			})
-			.append('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /><div class="content"><div class="title">aaaaaaaaa</div> </div> </div></div>')
+			.append('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /><div class="content"><div class="title">aaaa</div> </div> </div></div>')
 				.find('img')
 					.on('load', function(event) {
 						var $modalImg = $(this),
 							$modal = $modalImg.parents('.modal');
-
+                        $(this).next('.content').empty();
+						$(this).next('.content').append('<div>'+abc+'</div>');
 						setTimeout(function() {
 
 							// No longer visible? Bail.
