@@ -258,11 +258,11 @@
                 <div datasrc="dist/img/gallery/fulls/04.jpg" class="image filtered span-2-5 gitem" data-position="top"><img src="dist/img/gallery/thumbs/04.png" alt="" /></div>
                 <div class="group span-4-5">
                     <div datasrc="dist/img/gallery/fulls/05.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/05.png" alt="" /></div>
-                    <div datasrc="dist/img/gallery/fulls/06.jpg" class="image filtered span-1-5 gitem" data-position="center"><img src="dist/img/gallery/thumbs/06.jpg" alt="" /></div>
-                    <div datasrc="dist/img/gallery/fulls/07.jpg" class="image filtered span-1-5 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/07.jpg" alt="" /></div>
-                    <div datasrc="dist/img/gallery/fulls/08.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/08.jpg" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/06.jpg" class="image filtered span-1-5 gitem" data-position="center"><img src="dist/img/gallery/thumbs/06.png" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/07.jpg" class="image filtered span-1-5 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/07.png" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/08.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/08.png" alt="" /></div>
                 </div>
-                <div datasrc="dist/img/gallery/fulls/09.jpg" class="image filtered span-2-5 gitem" data-position="right"><img src="dist/img/gallery/thumbs/09.jpg" alt="" />
+                <div datasrc="dist/img/gallery/fulls/09.jpg" class="image filtered span-2-5 gitem" data-position="right"><img src="dist/img/gallery/thumbs/09.png" alt="" />
 
                 </div>
             </div>
