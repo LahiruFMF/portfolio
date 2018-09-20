@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02b3b065-58a9-4319-b300-12a658c91f79" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dist/img/gallery/thumbs/02.jpg" afterPath="$PROJECT_DIR$/dist/img/gallery/thumbs/02.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
     </list>
@@ -66,8 +67,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="262" column="161" lean-forward="false" selection-start-line="262" selection-start-column="161" selection-end-line="262" selection-end-column="161" />
+            <state relative-caret-position="405">
+              <caret line="251" column="164" lean-forward="false" selection-start-line="251" selection-start-column="164" selection-end-line="251" selection-end-column="164" />
               <folding />
             </state>
           </provider>
@@ -78,9 +79,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
               <caret line="1" column="246" lean-forward="false" selection-start-line="1" selection-start-column="246" selection-end-line="1" selection-end-column="246" />
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,7 +141,7 @@
       <file leaf-file-name="theme.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/dev/scss/theme.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
+            <state relative-caret-position="61829">
               <caret line="3637" column="16" lean-forward="false" selection-start-line="3637" selection-start-column="16" selection-end-line="3637" selection-end-column="16" />
               <folding>
                 <element signature="e#4021#4522#2" expanded="true" />
@@ -789,7 +788,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -913,6 +911,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1042,15 +1041,16 @@
       <workItem from="1537153668074" duration="2571000" />
       <workItem from="1537195981965" duration="763000" />
       <workItem from="1537279111192" duration="1439000" />
-      <workItem from="1537377731115" duration="1527000" />
+      <workItem from="1537377731115" duration="2029000" />
+      <workItem from="1537459597376" duration="658000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88809000" />
+    <option name="totallyTimeSpent" value="89969000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15260416" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1353,9 +1353,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="246" lean-forward="false" selection-start-line="1" selection-start-column="246" selection-end-line="1" selection-end-column="246" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1389,7 +1387,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/dev/scss/theme.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="61829">
           <caret line="3637" column="16" lean-forward="false" selection-start-line="3637" selection-start-column="16" selection-end-line="3637" selection-end-column="16" />
           <folding>
             <element signature="e#4021#4522#2" expanded="true" />
@@ -1399,8 +1397,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="262" column="161" lean-forward="false" selection-start-line="262" selection-start-column="161" selection-end-line="262" selection-end-column="161" />
+        <state relative-caret-position="405">
+          <caret line="251" column="164" lean-forward="false" selection-start-line="251" selection-start-column="164" selection-end-line="251" selection-end-column="164" />
           <folding />
         </state>
       </provider>
