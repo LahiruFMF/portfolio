@@ -679,6 +679,11 @@ abc=description;
 					}, 600);
 
 			})
+			.on('mouseover', '.gitem', function(event) {
+				$(this).find('.item-description').css({ opacity: 1 });
+		}).on('mouseout', '.gitem', function(event) {
+				$(this).find('.item-description').css({ opacity: 0 });
+		})
 			.on('click', '.modal', function(event) {
 
 				var $modal = $(this),

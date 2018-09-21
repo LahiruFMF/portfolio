@@ -246,22 +246,101 @@
             </div>
             <div class="gallery">
                 <div class="group span-3">
-                    <div datasrc="dist/img/gallery/fulls/01.jpg" class="image filtered span-3 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/01.png" alt="" />
+                    <div datasrc="dist/img/gallery/fulls/01.jpg" class="image filtered span-3 gitem" data-position="bottom">
+                        <img src="dist/img/gallery/thumbs/01.png" alt="" />
+                        <div class="item-description"  >
+                            <div class="item-desc-container">
+                            <div class="item-icon"></div>
+                            <div class="item-name">Sampath Bank Ultra Rewards Points System</div>
+                            <div class="category">UI/UX Design and Development</div>
+                        </div>
+                        </div>
                         <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">abc abc</div>
                     </div>
                     <div datasrc="dist/img/gallery/fulls/02.jpg" class="image filtered span-3 gitem" data-position="center"><img src="dist/img/gallery/thumbs/02.png" alt="" />
+                        <div class="item-description"  >
+                            <div class="item-desc-container">
+                                <div class="item-icon"></div>
+                                <div class="item-name">Findmyfare.com</div>
+                                <div class="category">UI/UX Design and Development</div>
+                            </div>
+                        </div>
                         <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">cde cde</div>
                     </div>
 
                 </div>
-                <div datasrc="dist/img/gallery/fulls/04.jpg" class="image filtered span-2-5 gitem" data-position="top"><img src="dist/img/gallery/thumbs/04.png" alt="" /></div>
+                <div class="group span-3">
+                    <div datasrc="dist/img/gallery/fulls/01.jpg" class="image filtered span-3 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/eb.png" alt="" />
+                        <div class="item-description"  >
+                            <div class="item-desc-container">
+                                <div class="item-icon"></div>
+                                <div class="item-name">EB Creasy.com</div>
+                                <div class="category">UI/UX Design and Development</div>
+                            </div>
+                        </div>
+                        <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">abc abc</div>
+                    </div>
+
+                    <div datasrc="dist/img/gallery/fulls/03.jpg" class="image filtered span-3 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/sgx.png" alt="" />
+                        <div class="item-description"  >
+                            <div class="item-desc-container">
+                                <div class="item-icon"></div>
+                                <div class="item-name">Singapore Exchange PostTrade Product</div>
+                                <div class="category">UI/UX Design and Development</div>
+                            </div>
+                        </div>
+                        <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">efg efg</div></div>
+                </div>
+                <div datasrc="dist/img/gallery/fulls/04.jpg" class="image filtered span-2-5 gitem" data-position="top"><img src="dist/img/gallery/thumbs/04.png" alt="" />
+                    <div class="item-description"  >
+                        <div class="item-desc-container">
+                            <div class="item-icon"></div>
+                            <div class="item-name">MillenniumIT Dev Day Mobile App</div>
+                            <div class="category">Mobile App Design and Development</div>
+                        </div>
+                    </div></div>
                 <div class="group span-4-5">
-                    <div datasrc="dist/img/gallery/fulls/05.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/05.png" alt="" /></div>
-                    <div datasrc="dist/img/gallery/fulls/06.jpg" class="image filtered span-1-5 gitem" data-position="center"><img src="dist/img/gallery/thumbs/06.png" alt="" /></div>
-                    <div datasrc="dist/img/gallery/fulls/07.jpg" class="image filtered span-1-5 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/07.png" alt="" /></div>
-                    <div datasrc="dist/img/gallery/fulls/08.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/08.png" alt="" /></div>
+                    <div datasrc="dist/img/gallery/fulls/05.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/05.png" alt="" />
+                        <div class="item-description"  >
+                            <div class="item-desc-container">
+                                <div class="item-icon"></div>
+                                <div class="item-name">Delaiah</div>
+                                <div class="category">Logo Design</div>
+                            </div>
+                        </div></div>
+                    <div datasrc="dist/img/gallery/fulls/06.jpg" class="image filtered span-1-5 gitem" data-position="center"><img src="dist/img/gallery/thumbs/06.png" alt="" />
+                        <div class="item-description"  >
+                            <div class="item-desc-container">
+                                <div class="item-icon"></div>
+                                <div class="item-name">Smartnav Mobile App</div>
+                                <div class="category">Logo Design</div>
+                            </div>
+                        </div></div>
+                    <div datasrc="dist/img/gallery/fulls/07.jpg" class="image filtered span-1-5 gitem" data-position="bottom"><img src="dist/img/gallery/thumbs/07.png" alt="" />
+                        <div class="item-description"  >
+                            <div class="item-desc-container">
+                                <div class="item-icon"></div>
+                                <div class="item-name">NavigateX</div>
+                                <div class="category">Logo Design</div>
+                            </div>
+                        </div></div>
+                    <div datasrc="dist/img/gallery/fulls/08.jpg" class="image filtered span-3 gitem" data-position="top"><img src="dist/img/gallery/thumbs/08.png" alt="" />
+                        <div class="item-description"  >
+                            <div class="item-desc-container">
+                                <div class="item-icon"></div>
+                                <div class="item-name">Switch borad</div>
+                                <div class="category">UI Design and Development</div>
+                            </div>
+                        </div></div>
                 </div>
                 <div datasrc="dist/img/gallery/fulls/09.jpg" class="image filtered span-2-5 gitem" data-position="right"><img src="dist/img/gallery/thumbs/09.png" alt="" />
+                    <div class="item-description"  >
+                        <div class="item-desc-container">
+                            <div class="item-icon"></div>
+                            <div class="item-name">Supplier Evaluation System</div>
+                            <div class="category">UI/UX Design, Java Development</div>
+                        </div>
+                    </div>
 
                 </div>
             </div>
