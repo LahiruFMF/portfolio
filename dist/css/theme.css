@@ -3704,6 +3704,21 @@ button:disabled,
   outline: 0;
   visibility: none;
   z-index: 0; }
+  .gallery .modal .inner {
+    width: 90%;
+    height: 82%;
+    background-color: #fff;
+    border-radius: 3px; }
+    .gallery .modal .inner > div {
+      float: left; }
+    .gallery .modal .inner .image-wrapper {
+      width: 75%;
+      background-color: #333;
+      position: relative;
+      height: 100%;
+      overflow: auto; }
+    .gallery .modal .inner .content-wrapper {
+      width: 25%; }
 
 .gallery .modal:before {
   -moz-animation: gallery-modal-spinner 1s infinite linear;
@@ -3759,9 +3774,7 @@ button:disabled,
 
 .gallery .modal .inner img {
   display: block;
-  max-width: 90vw;
-  max-height: 85vh;
-  box-shadow: 0 1rem 3rem 0 rgba(0, 0, 0, 0.35); }
+  width: 100%; }
 
 .gallery .modal.visible {
   pointer-events: auto;

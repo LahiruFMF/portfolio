@@ -310,6 +310,9 @@
 				// Wheel event.
 					$body.on('wheel', function(event) {
 
+
+						if(onModal)
+							return
 						// Disable on <=small.
 							if (breakpoints.active('<=small'))
 								return;
@@ -629,14 +632,14 @@
 						);
 
 			});
-
+    onModal=false;
 	// Gallery.
 		$('.gallery')
 			.on('click', '.gitem', function(event) {
 			    var url= $(this).find( '.description').attr('datatarget');
 
 			    description= $(this).find( '.description').html();
-
+onModal=true;
 abc=description;
 
 				var $a = $(this),
@@ -712,7 +715,7 @@ abc=description;
 
 						$modal
 							.removeClass('visible')
-
+                        onModal=false;
 						// Pause scroll zone.
 							$wrapper.triggerHandler('---pauseScrollZone');
 
@@ -746,7 +749,7 @@ abc=description;
 				// Stop propagation.
 					event.stopPropagation();
 			})
-			.append('<div class="modal" tabIndex="-1"><div class="inner"><img src="" /><div class="content"><div class="title">aaaa</div> </div> </div></div>')
+			.append('<div class="modal" tabIndex="-1"><div class="inner"><div class="image-wrapper"> <img src="" /></div><div class="content-wrapper"> <div class="content"><div class="title">aaaa</div> </div></div> </div></div>')
 				.find('img')
 					.on('load', function(event) {
 						var $modalImg = $(this),

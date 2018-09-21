@@ -246,7 +246,7 @@
             </div>
             <div class="gallery">
                 <div class="group span-3">
-                    <div datasrc="dist/img/gallery/fulls/01.jpg" class="image filtered span-3 gitem" data-position="bottom">
+                    <div datasrc="dist/img/gallery/fulls/01.png" class="image filtered span-3 gitem" data-position="bottom">
                         <img src="dist/img/gallery/thumbs/01.png" alt="" />
                         <div class="item-description"  >
                             <div class="item-desc-container">
@@ -255,7 +255,7 @@
                             <div class="category">UI/UX Design and Development</div>
                         </div>
                         </div>
-                        <div datatarget="dist/img/gallery/fulls/01x.jpg" class="description" datasrc="Title">abc abc</div>
+                        <div datatarget="dist/img/gallery/fulls/01.png" class="description" datasrc="Title">abc abc</div>
                     </div>
                     <div datasrc="dist/img/gallery/fulls/02.jpg" class="image filtered span-3 gitem" data-position="center"><img src="dist/img/gallery/thumbs/02.png" alt="" />
                         <div class="item-description"  >
