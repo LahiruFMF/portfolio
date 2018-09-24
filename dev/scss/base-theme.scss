@@ -1,0 +1,23 @@
+$media-xs:320px;
+$media-sm:480px;
+$media-md:768px;
+$media-lg:992px;
+$media-xl:1200px;
+
+#powerTip{
+  font-size: 11px;
+  padding: 4px 10px;
+  font-weight: 700;
+}
+
+#powerTip.s:before,
+#powerTip.se:before, #powerTip.sw:before {
+  top: -6px;
+}
+#powerTip.s:before,
+#powerTip.se:before, #powerTip.sw:before ,
+#powerTip.sw-alt:before, #powerTip.se-alt:before {
+  border-bottom-color: inherit;
+  border-bottom-style: solid;
+  border-bottom-width: 6px;
+}

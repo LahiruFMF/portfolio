@@ -1,134 +1,52 @@
 $(function () {
-
-   var step = 25;
-    var scrolling = false;
-
-// Wire up events for the 'scrollUp' link:
-    $("#btn-scroll-left").bind("click", function(event) {
-        event.preventDefault();
-        // Animates the scrollTop property by the specified
-        // step.
-        $("html").animate({
-            scrollLeft: "-=" + step + "px"
-        });
-    }).bind("mouseover", function(event) {
-        scrolling = true;
-        scrollContent("up");
-    }).bind("mouseout", function(event) {
-        scrolling = false;
-    });
-
-
-    $("#btn-scroll-right").bind("click", function(event) {
-        event.preventDefault();
-        $("html").animate({
-            scrollLeft: "+=" + step + "px"
-        });
-    }).bind("mouseover", function(event) {
-        scrolling = true;
-        scrollContent("down");
-    }).bind("mouseout", function(event) {
-        scrolling = false;
-    });
-    function scrollContent(direction) {
-        var amount = (direction === "up" ? "-=8px" : "+=8px");
-        $("html").animate({
-            scrollLeft: amount
-        }, 1, function() {
-            if (scrolling) {
-                scrollContent(direction);
-            }
-        });
-    }
-
+    setTooltips();
 });
 
+function setTooltips(){
+    $('.html').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.css').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.js').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.jq').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.ng').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.php').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.mysql').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.git').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.ps').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.ai').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.sass').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.gulp').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.ij').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.vsc').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.mac').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.win').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.java').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.vaadin').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.is').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.cordova').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+    $('.pg').powerTip({ placement: 's' ,fadeInTime:1,fadeOutTime:1,closeDelay:1});
+}
 
-// var clicked = false, clickX;
-// $(document).on({
-//     'mousemove': function(e) {
-//         clicked && updateScrollPos(e);
-//     },
-//     'mousedown': function(e) {
-//         clicked = true;
-//         clickX = e.pageX;
-//     },
-//     'mouseup': function() {
-//         clicked = false;
-//         $('html').css('cursor', 'grab');
-//     }
-// });
-//
-// var updateScrollPos = function(e) {
-//     $('.page').css('cursor', 'grab');
-//     $(window).scrollLeft($(window).scrollLeft() + (clickX - e.pageX));
-// }
-
-$(function(){
-
-    // suggested ratio = 0.3
-    // suggested duration = 400
-    $.fn.lc_smoothscroll = function(ratio, duration, ignoreX, ignoreY) {
-        var $subj = this,
-            trackX = (typeof(ignoreY) == 'undefined' || !ignoreX) ? true : false,
-
-            curDown = false,
-            curYPos = 0,
-            curXPos = 0,
-
-            startScrollY = 0,
-            startScrollX = 0,
-            scrollDif   = 0;
-
-        $subj.mousemove(function(m){
-            if(curDown === true){
-                $subj.stop(true);
-
-                if(trackX) {
-                    $subj.scrollLeft(startScrollX + (curXPos - m.offsetX));
-                }
-            }
-
-            if(typeof(lc_sms_timeout) != 'undefined') {clearTimeout(lc_sms_timeout);}
-            lc_sms_timeout = setTimeout(function () {
-                curDown = false;
-            }, 50);
-        });
-
-        $subj.mousedown(function(m){
-            if(typeof(lc_sms_timeout) != 'undefined') {clearTimeout(lc_sms_timeout);}
-            curDown = true;
-
-            startScrollY = $subj.scrollTop();
-            startScrollX = $subj.scrollLeft();
-            curYPos = m.offsetY;
-            curXPos = m.offsetX;
-        });
-
-        $subj.mouseup(function(m){
-            curDown = false;
-
-            // smooth scroll
-            var currScrollX = $subj.scrollLeft();
-            var scrollDiffX = (startScrollX - currScrollX) * -10;
-            var newScrollX = currScrollX + ( scrollDiffX * ratio);
-
-            var anim_obj = {};
-            if(trackX) {
-                anim_obj["scrollLeft"] = newScrollX;
-            }
-
-            $subj.stop(true).animate(anim_obj, duration, 'linear');
-        });
-    };
-
-
-    // implementation
-    $('html').lc_smoothscroll(0.3, 400);
-
-
-    // little trick to make mobile devices compatible with this demo
-    if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-        $('html').css('overflow', 'auto');
-    }
-});
+techArry={
+    html:'HTML',
+    css:"CSS3",
+    js:"JavaScript",
+    jq:"jQuery",
+    ng:"Angular",
+    php:"PHP",
+    mysql:"MySQL",
+    css:"CSS3",
+    git:"GIT",
+    ps:"Adobe Photoshop",
+    ai:"Adobe Illustrator",
+    sass:"SASS",
+    gulp:"Gulp",
+    ij:"IntelliJ IDEA",
+    vsc:"Visual Studio Code",
+    mac:"macOS",
+    win:"Windows",
+    java:"Java",
+    vaadin:"Vaadin",
+    is:"Inkscape",
+    cordova:"Apache Cordova",
+    pg:"Adobe PhoneGap",
+}
